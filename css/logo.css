@@ -1,0 +1,27 @@
+.nav .logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  display: block;
+  color: var(--link-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.header__logo {
+  color: var(--studio-color);
+}
+
+.footer .logo {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer__logo {
+  color: var(--body-background-color);
+}/*# sourceMappingURL=logo.css.map */
