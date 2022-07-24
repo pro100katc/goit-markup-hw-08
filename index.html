@@ -10,48 +10,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-  
+
   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-<header class="header">
-  <div class="container header__container">
-    <nav class="nav">
+  <header class="header">
+    <div class="container header__container">
+      <nav class="nav">
 
-      <a class="logo" href="/">Web<span class="header__logo">Studio</span></a>
+        <a class="logo" href="/">Web<span class="header__logo">Studio</span></a>
 
-      <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link nav__link--active" href="./index.html">Студія</a></li>
-        <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
-        <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link nav__link--active" href="./index.html">Студія</a></li>
+          <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
+        </ul>
+
+      </nav>
+
+      <ul class="contacts contacts--header">
+        <li class="contacts__item">
+          <a class="contacts__link contacts__link--header" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg> info@devstudio.com</a>
+
+        </li>
+        <li class="contacts__item contacts__item--tel">
+          <a class="contacts__link contacts__link--header" href="tel:+380961111111">
+            <svg class="contacts__icon" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+380961111111</a>
+        </li>
       </ul>
+      <button class="header__button" data-menu-open type="button">
+        <svg class="header__icon">
+          <use href="./images/icons.svg#icon-menu_open"></use>
+        </svg>
+      </button>
+    </div>
 
-    </nav>
 
-    <ul class="contacts">
-      <li class="contacts__item">
-        <a class="contacts__link contacts__link--header" href="mailto:info@devstudio.com">
-          <svg class="contacts__icon" width="16px" height="12px">
-            <use href="./images/icons.svg#icon-envelope"></use>
-          </svg> info@devstudio.com</a>
-
-      </li>
-      <li class="contacts__item contacts__item--tel">
-        <a class="contacts__link contacts__link--header" href="tel:+380961111111">
-          <svg class="contacts__icon" width="10px" height="16px">
-            <use href="./images/icons.svg#icon-smartphone"></use>
-          </svg>+380961111111</a>
-      </li>
-    </ul>
-<button class="header__button" data-menu-open type="button">
-  <svg class="header__icon">
-    <use href="./images/icons.svg#icon-menu_open"></use>
-  </svg>
-</button>
-
-  </div>
-</header>
+  </header>
 
   <main>
     <section class="hero overlay">
@@ -135,7 +136,7 @@
             </div>
             <h3 class="features__title">Пунктуальність</h3>
             <p class="features__text">Завдання організації, особливо рамки і місце навчання кадрів тягне за
-            собою.</p>
+              собою.</p>
           </li>
           <li class="features__item">
             <div class="features__picture">
@@ -145,7 +146,7 @@
             </div>
             <h3 class="features__title">Планування</h3>
             <p class="features__text">Також консультація з широким активом значною мірою
-            зумовлює.</p>
+              зумовлює.</p>
           </li>
           <li class="features__item">
             <div class="features__picture">
@@ -172,7 +173,7 @@
           </li>
           <li class="image__item">
             <img src="./images/phone.jpg" alt="телефон-в-руках-і-ноутбук" width="370">
-            <p class="image__label">Мобільні  додатки</p>
+            <p class="image__label">Мобільні додатки</p>
           </li>
           <li class="image__item">
             <img src="./images/notepad.jpg" alt="планшет" width="370">
