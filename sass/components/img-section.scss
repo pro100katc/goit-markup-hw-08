@@ -1,37 +1,53 @@
 .image {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
 }
-
 .caption {
-    margin-top: 0;
+  margin-top: 0;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
-    color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+  }
 }
-
 .image__list {
+  @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row;
 
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+  }
 }
-
 .image__item {
+  @media screen and (min-width: 1200px) {
     margin-right: 30px;
     position: relative;
+  }
 
-    &:last-child {
-        margin-right: 0px;
+  &:last-child {
+    @media screen and (min-width: 1200px) {
+      margin-right: 0px;
     }
+  }
 }
 
 .image__label {
+  @media screen and (min-width: 1200px) {
     position: absolute;
     margin: 0;
     bottom: 0;
@@ -45,4 +61,5 @@
     align-items: center;
     color: #fff;
     text-transform: uppercase;
+  }
 }
