@@ -21,6 +21,16 @@
   padding: 0;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1199px) {
+  .footer .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .footer__logo {
   color: var(--body-background-color);

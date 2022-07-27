@@ -8,7 +8,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 16px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .socials {
+    margin-top: 16px;
+  }
 }
 
 .socials__item {
