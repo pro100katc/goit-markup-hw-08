@@ -10,33 +10,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
-
 <body>
+  
   <header class="header">
     <div class="container header__container">
       <nav class="nav">
-  
+
         <a class="logo" href="/">Web<span class="header__logo">Studio</span></a>
-  
+
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
           <li class="nav__item"><a class="nav__link nav__link--active" href="./portfolio.html">Портфоліо</a></li>
           <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
         </ul>
-  
+
       </nav>
-  
+
       <ul class="contacts contacts--header">
         <li class="contacts__item">
           <a class="contacts__link contacts__link--header" href="mailto:info@devstudio.com">
             <svg class="contacts__icon" width="16px" height="12px">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg> info@devstudio.com</a>
-  
+
         </li>
         <li class="contacts__item contacts__item--tel">
           <a class="contacts__link contacts__link--header" href="tel:+380961111111">
@@ -45,6 +45,45 @@
             </svg>+380961111111</a>
         </li>
       </ul>
+      <button class="header__button" data-menu-open type="button">
+        <svg class="header__icon">
+          <use href="./images/icons.svg#icon-menu_open"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile is-hidden" data-menu>
+      <div class="container">
+        <button data-menu-close class="mobile__button" type="button">
+          <svg class="header__icon">
+            <use href="./images/icons.svg#icon-menu_close"></use>
+          </svg>
+        </button>
+        <nav class="mobile__nav">
+          <ul class="mobile__list">
+            <li class="mobile__item"><a class="mobile__link" href="./index.html">Студия</a>
+            </li>
+            <li class="mobile__item"><a class="mobile__link mobile__link--active" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile__item"><a class="mobile__link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="mobile__media">
+          <ul class="media">
+            <li class="media__item">
+              <a class="media__link media__link--mobile" href="tel:+380961111111">+380961111111</a>
+            </li>
+            <li class="media__item">
+              <a class="media__link media__link--mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="networks">
+            <li class="networks__item"><a class="networks__link" href="">Instagram</a></li>
+            <li class="networks__item"><a class="networks__link" href="">Twitter</a></li>
+            <li class="networks__item"><a class="networks__link" href="">Facebook</a></li>
+            <li class="networks__item"><a class="networks__link" href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -63,8 +102,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/notebook.jpg" alt="Технокряк" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
 
             <div class="projects__description">
@@ -75,8 +115,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/new-orlian.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Постер New Orlean vs Golden Star</h3>
@@ -86,8 +127,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Ресторан Seafood</h3>
@@ -98,8 +140,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/airpods.jpg" alt="Проект Prime" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Проект Prime</h3>
@@ -109,8 +152,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/box.jpg" alt="Проект Boxes" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Проект Boxes</h3>
@@ -121,8 +165,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/imac.jpg" alt="Inspiration has no Borders" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Inspiration has no Borders</h3>
@@ -132,8 +177,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/book.jpg" alt="Издание Limited Edition" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Издание Limited Edition</h3>
@@ -143,8 +189,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/label.jpg" alt="Проект LAB" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Проект LAB</h3>
@@ -154,8 +201,9 @@
           <li class="projects__item">
             <div class="projects__hover">
               <img src="./images/hends.jpg" alt="Growing Business" width="370">
-              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу. Все це дозволить користувачу отримати
-              вичерпні дані про компанію або приватну особу.</p>
+              <p class="projects__content">Ресурс пропонує комплексні рішення з різним рівнем функціоналу та сервісу.
+                Все це дозволить користувачу отримати
+                вичерпні дані про компанію або приватну особу.</p>
             </div>
             <div class="projects__description">
               <h3 class="projects__caption">Growing Business</h3>
