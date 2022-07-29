@@ -1685,6 +1685,7 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
 }
 
 .footer__form {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
