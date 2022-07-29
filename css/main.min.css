@@ -185,8 +185,10 @@ body {
 
 .mobile .container {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -253,7 +255,7 @@ body {
 }
 
 .media {
-    padding-bottom: 64px
+    margin-bottom: 64px;
 }
 
 .media__item {
@@ -282,7 +284,8 @@ body {
 .networks {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .networks__item {
