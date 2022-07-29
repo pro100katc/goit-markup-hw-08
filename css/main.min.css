@@ -1574,9 +1574,15 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
 }
 
 .footer__container {
-    display: flex;
-    align-items: center
-}
+    
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+            align-items: baseline;
+        }
+
 
 @media screen and (max-width: 1199px) {
     .footer__container {
