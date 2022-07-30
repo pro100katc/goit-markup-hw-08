@@ -376,9 +376,7 @@ body {
 
 @media screen and (min-width: 1200px) {
     .contacts--footer {
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start
+        align-items: flex-start;
     }
 }
 
@@ -1579,6 +1577,14 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
     
 }
 
+@media screen and (min-width: 768px) {
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
 
 @media screen and (max-width: 1199px) {
     .footer__container {
@@ -1590,7 +1596,7 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
 @media screen and (min-width: 1200px) {
     .footer__container {
         display: flex;
-        align-items: baseline
+        align-items: baseline;
     }
 }
 
