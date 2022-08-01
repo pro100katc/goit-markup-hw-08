@@ -114,8 +114,7 @@ body {
 }
 
 .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
     margin: 0;
     padding: 0
@@ -574,24 +573,18 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
 
 .buttons__list {
     display: flex;
-    column-gap: 15px;
+    column-gap: 8px;
+    row-gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
     .buttons__list {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        margin-top: 0;
+       
         margin-bottom: 30px
     }
 }
@@ -602,10 +595,8 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
     }
 }
 
-.buttons__item {
-    margin-right: 8px
-}
 
+    
 .buttons__item:last-child {
     margin-right: 0px
 }
